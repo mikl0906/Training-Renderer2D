@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Scene.h"
 #include "Sphere.h"
+#include "Rectangle.h"
 #include <chrono>
 #include <thread>
 
@@ -14,7 +15,10 @@ int main()
     Scene scene(80, 20);
 
     Sphere sphere(20, 10, 3);
+    Rectangle rect(70, 15, 10, 5);
+
     scene.children.push_back(new Sphere(sphere));
+    scene.children.push_back(new Rectangle(rect));
     
     while (true)
     {

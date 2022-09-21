@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ModelObject.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Renderer2D.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Sphere.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ModelObject.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Sphere.h" />
   </ItemGroup>
